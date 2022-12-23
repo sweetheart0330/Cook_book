@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">my_cook_book</string>
+    <string name="Helpplz">Help</string>
+    <string name="Exit">Exit</string>
+    <string name="editTitle_hint">Add name</string>
+    <string name="editIngredients_hint">Add ingredients</string>
+    <string name="editContent_hint">Add content</string>
+    <string name="SaveButton">Save</string>
+    <string name="MenuButton">Menu</string>
+    <string name="LanguageButton">Ru</string>
+    <string name="ShowRecipesButton">See Recipes</string>
+    <string name="AddReciepeButton">Add Reciepe</string>
+    <string name="AddReciepeText">Add Reciepe</string>
+    <string name="NoRecipes">No recipes</string>
+    <string name="InfoContent">This application allows you to add recipes to your phone. It\'s not much, but it\'s honest work</string>
+</resources>

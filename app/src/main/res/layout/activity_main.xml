@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B07D2A"
+    android:scrollbarSize="8dp">
+
+    <Button
+        android:id="@+id/deadButton"
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/Exit"
+        android:onClick="OnClickExit"
+        android:textColorHint="#FFFFFF"
+        android:textSize="17dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Language" />
+
+    <Button
+        android:id="@+id/showReciepe"
+        android:layout_width="298dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/ShowRecipesButton"
+        android:onClick="onClickShow"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addReciepe" />
+
+    <Button
+        android:id="@+id/addReciepe"
+        android:layout_width="298dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/AddReciepeButton"
+        android:onClick="onClickAdd"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/HelpPLZ"
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/Helpplz"
+        android:onClick="onClickHelp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="17dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Language"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Language"
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/LanguageButton"
+        android:onClick="onClickChangeLang"
+        android:textColorHint="#FFFFFF"
+        android:textSize="17dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="270dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="cursive"
+        android:hint="@string/CockBook"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

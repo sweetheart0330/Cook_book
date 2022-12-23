@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">my_cook_book</string>
+    <string name="Helpplz">Помощь</string>
+    <string name="Exit">Выход</string>
+    <string name="editTitle_hint">Добавить название</string>
+    <string name="editIngredients_hint">Добавить ингредиенты</string>
+    <string name="editContent_hint">Добавить описание</string>
+    <string name="SaveButton">Сохранить</string>
+    <string name="MenuButton">Меню</string>
+    <string name="LanguageButton">En</string>
+    <string name="ShowRecipesButton">Посмотреть рецепты</string>
+    <string name="AddReciepeButton">Добавить рецепт</string>
+    <string name="AddReciepeText">Добавить рецепт</string>
+    <string name="NoRecipes">Нет рецептов</string>
+    <string name="InfoContent">Данное приложение позволяет добавлять рецепты в телефон. Это немного, но это честная работа</string>
+</resources>
